@@ -2,6 +2,9 @@
 
 :root {
     font-size: 62.5%;
+    --main-color: #1A4D70;
+    --orange-color: #F9572B;
+    color: var(--main-color);
 }
 
 * {
@@ -18,19 +21,65 @@ header {
     width: 100%;
 }
 
+/* h1,
+h2,
+h3,
+p {
+    color: var(--main-color);
+} */
 h1 {
-    color: #1A4D70;
-
+    font-size: 32px
 }
 
 h2 {
-    color: #1A4D70
+    font-weight: 700;
+    font-size: 36px;
 }
 
 p {
-    color: #1A4D70
+    font-weight: 400;
+    font-size: 16px;
+}
+
+li::marker {
+    font-size: 0px;
 }
 
 a {
     text-decoration: none
+}
+
+.black-text{
+    font-weight: 900;
+}
+
+.blue-text{
+    
+
+
+} 
+
+.advantage h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.advantage p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.text-white {
+    color:white;
+    /* временное решение:  */
+    background-color: black;
+}
+
+.towns-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+div p:nth-child(1) {
+    font-size: 16px;
+}
+body {
+    background-image:url("./images/background.png")
 }
