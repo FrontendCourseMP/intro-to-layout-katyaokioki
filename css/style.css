@@ -13,18 +13,23 @@
     padding: 0;
     font-family: 'Roboto';
 }
-.header{
+
+.header {
     height: 100px;
-    background-image: url(../images/Graphic.svg);
+
 }
 
-.wrapper{
-    max-width: 300px;
-}
-.header__logo{
-   padding-left: 30px;
-   padding-top: 30px;
+.wrapper {
+    max-width: 100%;
 
+}
+
+.header__logo {
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /*.header {
@@ -44,11 +49,13 @@ p {
 } */
 h1 {
     font-size: 3.2rem;
+    text-align: center;
 }
 
 h2 {
     font-weight: 700;
     font-size: 3.6rem;
+    text-align: center;
 }
 
 p {
@@ -57,52 +64,96 @@ p {
 }
 
 li::marker {
-    font-size: 0px;
+    list-style: none;
 }
 
 a {
     text-decoration: none
 }
 
-.black-text{
+.black-text {
     font-weight: 900;
 }
 
-.blue-text{
-    
-
-
-} 
+.blue-text {}
 
 .advantage h3 {
     font-size: 2.4rem;
     font-weight: 700;
 }
+
 .advantage p {
     font-size: 1.6rem;
     font-weight: 400;
 }
+
 .text-white {
-    color:white;
+    color: white;
     /* временное решение:  */
-    background-color: black;
+    background-color:black;
 }
 
 .towns-text {
     font-size: 1.6rem;
     font-weight: 500;
 }
+
 div p:nth-child(1) {
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
 }
 
 
 .background {
     background-image: url(../images/background.png), url();
     background-repeat: no-repeat;
-}
-.background__down {
-    width: 100%;
-    height: auto;
+    background-size: 100%;
 }
 
+.background__down {
+    width: 100%;
+    background-size: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.burger {}
+
+.towns__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 57px;
+    grid-column-gap: 8px;
+    padding-left: 50px;
+}
+
+.icon1::before {
+    content: url(../images/Star11.svg);
+    position: absolute;
+    left: -19px;
+    top: -25px;
+    z-index: 10;
+    text-align: center;
+}
+
+.icon1 {
+    position: relative;
+    
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.icon1 p {
+    z-index: 20;
+    position: relative;
+    color: red;
+    text-align: center;
+}
+.numbers__list {
+    background-color: #EFEFEF;
+}
+.statistik {
+    font-size: 5.0rem;
+    color: black;
+    text-align:center;
+}
