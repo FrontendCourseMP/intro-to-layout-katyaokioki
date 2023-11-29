@@ -71,6 +71,7 @@ h3 {
 p {
     font-weight: 400;
     font-size: 1.6rem;
+    color:#1A4D70;
 }
 
 li::marker {
@@ -85,7 +86,9 @@ a {
     font-weight: 900;
 }
 
-.blue-text {}
+.blue-text { 
+    color: #1A4D70;
+}
 
 .advantage h3 {
     font-size: 2.4rem;
@@ -124,9 +127,9 @@ div p:nth-child(1) {
     vertical-align: middle;
 }
 
-.burger {}
 
-.towns__list {
+
+.sity__list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -134,15 +137,20 @@ div p:nth-child(1) {
     grid-column-gap: 0.8rem;
     padding-left: 5rem;
 }
+.sity-text {
+    color:#1A4D70;
+    font-size: 16px;
+    font-weight: 500;
+}
 
-.icon1::before {
+/*.icon1::before {
     content: url(../images/Star11.svg);
     position: absolute;
     left: -19px;
     top: -25px;
     z-index: 10;
     text-align: center;
-}
+}*/
 
 .icon1 {
     position: relative;
@@ -151,20 +159,16 @@ div p:nth-child(1) {
     margin-bottom:5rem;
 }
 
-.icon1 p {
+/*.icon1 p {
     z-index: 20;
     position: relative;
     color: red;
     text-align: center;
-}
+}*/
 .numbers__list {
     background-color: #EFEFEF;
 }
-.statistik {
-    font-size: 5.0rem;
-    color: black;
-    text-align:center;
-}
+
 .button {
     background-color: #F9572B;
     
@@ -172,6 +176,7 @@ div p:nth-child(1) {
 }
 .text_comp {
     margin: 0 25px 10px 25px;
+    color: var(--main-color)
 }
 .communication_orang {
     background-color: #F9572B;
@@ -184,10 +189,101 @@ div p:nth-child(1) {
 .customers {
     display: flex;
     flex-direction: column;
+    gap: 7.5rem;
 }
 .bg1 {
     background-image: url(../images/bg1.png);
 }
 .bg2 {
     
+}
+.statistic {
+    background-color: #EFEFEF;
+}
+.statistik_text {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: var(--main-color);
+   
+}
+.statistik_num {
+    font-size: 10.0rem;
+    color:var(--orange-color);
+    text-align:center;
+    width: 18rem;
+    height: 10.7rem;
+    background-image: url(../images/Star11.svg);
+}
+.advantage {
+    background-color: white;
+}
+.equipment_but {
+    display: inline;
+    background-color:#F9572B;
+    height: 5.1rem;
+}
+.equipment_but_m {
+    background-color: #F9572B;
+    width: 13.8rem;
+    height: 5.1rem;
+    border:none;
+}
+.equipment_text {
+    color:white;
+    font-size: 1.6rem;
+    font-weight: 900;
+
+}
+.afterstatistic{
+    size: 100%;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    gap: 2.3rem;
+}
+.email_reight{
+    display: flex;
+    flex-direction: column;
+    gap:0.01rem;
+}
+.email_text{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.email_link {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color:var(--main-color);
+}
+.location {
+    display: flex;
+    flex-direction: row;
+    gap: 2.3rem;
+}
+.location_reight{
+    display: flex;
+    flex-direction: column;
+    gap:0.1rem;
+}
+.orang_text {
+    color:white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.orang_link {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button_go {
+    background-color: #F9572B;
+    width: 13.8rem;
+    height: 5.1rem;
+    border:none;
+}
+.text_go {
+    font-size: 16px;
+    font-weight: 500;
+    color:white;
 }
