@@ -369,6 +369,9 @@ button:focus {
     background: #10F3AF;
     transform: translateY(-100%);
   }
+.skip-link:focus {
+    transform: translateY(20%);
+}
 
 .background_Bump1 {
     margin-top: 20%;
