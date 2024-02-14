@@ -64,9 +64,86 @@ input[type="radio"] {
     border: none;
     background-color:#F9572B;
     color:white;
+    margin-left: 10rem;
 }
 footer {
     position: sticky;
     bottom:0;
     background-color: #1A4D70;
+}
+.definitions {
+    font-family: Arial, sans-serif;
+    color:white;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+li {
+    list-style-type: none;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #ff0000; /* Красный фон для выбранных чекбоксов */
+}
+dt, legend {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+dd, li {
+    font-size: 1.4rem;
+    margin-bottom: 3rem
+}
+ {
+    text-decoration: line-through;
+}
+
+
+.definitions dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.definitions dd::before {
+    content: "🛈";
+    margin-right: 5px;
+}
+
+input[type="checkbox"] + label {
+    text-decoration: none;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+
+fieldset:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+fieldset:nth-of-type(even) {
+    background-color: #eaeaea;
+}
+fieldset {
+    max-width: 80%;
+    padding: 2rem;
+    margin-left: 10%;
+}
+.vb {
+    padding-top: 2rem;
+}
+li:nth-child(odd) {
+    color: red;
+}
+.header_logo {
+    transform: rotate(30deg);
+    transform: scale(1.5);
+    transform: skew(20deg, 10deg);
+}
+.submit-button1 {
+    padding: 10px 20px;
+    border: none;
+    background-color:#F9572B;
+    color:white;
+    margin-left: 40%;
+    margin-top: 2rem;
+
 }

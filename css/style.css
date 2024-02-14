@@ -359,6 +359,16 @@ button:focus {
     background-size: cover;
     background-position: center top -10rem;
 }
+.skip-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 10px 15px;
+    color: #18191c;
+    background: #10F3AF;
+    transform: translateY(-100%);
+  }
 
 .background_Bump1 {
     margin-top: 20%;
