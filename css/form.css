@@ -1,0 +1,72 @@
+.registration-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-color: white;
+}
+body {
+    background-color: #1A4D70;
+}
+.header {
+    position: static;
+}
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+.form-group:hover::before {
+    content: "Заполните это поле";
+    position: absolute;
+    top: -20px; 
+    left: 0;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    color: red;
+}
+.form_wrapper {
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.submit-button,
+.reset-button {
+    padding: 10px 20px;
+    border: none;
+    background-color:#F9572B;
+    color:white;
+}
+footer {
+    position: sticky;
+    bottom:0;
+    background-color: #1A4D70;
+}

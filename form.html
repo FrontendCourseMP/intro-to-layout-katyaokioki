@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="header_img">
+            <a href="/" class="header_logo">
+                <img src="./images/Logo.svg" alt="ups">
+            </a>
+            <button class="header_button">
+                <img src="./images/Menu.svg" alt="'ups">
+            </button>
+        </div>
+        <div class="header_links">
+            <a href="/" class="header_link ">О компании</a>
+            <a href="/" class="header_link ">Наши преимущества</a>
+            <a href="/" class="header_link ">Заказчики</a>
+            <a href="/" class="header_link ">Объекты</a>
+            <a href="/" class="header_link ">Контакты</a>
+            <a href="/" class="header_link ">8 800 600-15-05</a>
+        </div>
+    </section>
+    <div class="form_margin">
+        <form action="//httpbin.org/post" method="POST" class="registration-form">
+            <fieldset>
+                <div class="form_wrapper">
+                    <legend>Личная информация</legend>
+                    <div class="form-group">
+                        <label for="name">Имя:</label>
+                        <input type="text" id="name" name="name" required placeholder="Иван Иванов">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Дата рождения:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Пол:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Мужской</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Женский</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <div class="form_wrapper">
+                    <legend>Контактные данные</legend>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="example@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+7 123 456-78-90">
+                    </div>
+                    <div class="form-group">
+                        <label>Удобное время для связи:</label>
+                        <select name="contact-time" id="contact-time">
+                            <option value="morning">Утро</option>
+                            <option value="day">День</option>
+                            <option value="evening">Вечер</option>
+                            <option value="night">Ночь</option>
+                        </select>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <div class="form-actions">
+                <button type="submit" class="submit-button">Отправить</button>
+                <button type="reset" class="reset-button">Сбросить</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-line"></div>
+        <div class="footer">
+            <p class="footer_txt_1">2015 — 2023 г.</p>
+            <a href="/grid.html" class="">лаба7</a>
+            <a href="/form.html">Форма</a>
+            <a href="/demo.html">демо</a>
+            <img class="footer_pic" src="/images/Logo_footer.svg" alt="лого компании">
+        </div>
+    </footer>
+</body>
+
+</html>
