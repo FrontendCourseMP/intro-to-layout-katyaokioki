@@ -159,7 +159,7 @@
 :root {
     font-size: 62.5%;
     --main-color: #1A4D70;
-    --orange-color: #F9572B;
+    --orange-color: #DD3E13;
     --ser-color: #EFEFEF;
     --white-color: #FFFFFF;
     color: var(--main-color);
@@ -368,6 +368,7 @@ button:focus {
     color: #18191c;
     background: #10F3AF;
     transform: translateY(-100%);
+    z-index: 1000;
   }
 .skip-link:focus {
     transform: translateY(20%);
@@ -751,7 +752,7 @@ button:focus {
 .orange{
     width: 342px;
     height: 317px;
-    background-color: #F9572B;
+    background-color: var(--orange-color);
 }
 
 .orange-wrapper{
@@ -1235,3 +1236,8 @@ button:focus {
         
     }  
 }   
+@media (max-width: 1350px) {
+    .pic {
+        display: none;
+    }
+}
