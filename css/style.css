@@ -691,6 +691,13 @@ button:focus {
 .email_text{
     font-size: 1.6rem;
     font-weight: 900;
+    margin-right: 15rem;
+}
+
+.email1_text{
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-right: 5rem;
 }
 .email_link {
     font-size: 1.6rem;
