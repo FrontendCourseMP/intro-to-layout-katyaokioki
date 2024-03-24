@@ -1070,8 +1070,8 @@ button:focus {
         display: none;
     }
     .objects_img2 {
-        width: 1182px;
-        height: 610px;
+        width: 80%;
+        height: 80%;
         
     }
     .sity-text {
@@ -1242,7 +1242,8 @@ button:focus {
         height: 50%;
         
     }  
-}   
+}  
+
 @media (max-width: 1350px) {
     .pic {
         display: none;
